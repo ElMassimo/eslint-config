@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@antfu/eslint-config-react',
-    '@antfu/eslint-config-vue',
+    '@mussi/eslint-config-react',
+    '@mussi/eslint-config-vue',
   ],
 }

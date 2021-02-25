@@ -1,10 +1,10 @@
 {
-  "name": "@antfu/eslint-config-vue",
+  "name": "@mussi/eslint-config-vue",
   "version": "0.4.3",
   "description": "",
   "main": "index.js",
   "keywords": [],
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "author": "Maximo Mussini <maximomussini@gmail.com> (https://github.com/ElMassimo/)",
   "license": "MIT",
   "files": [
     "index.js"
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@antfu/eslint-config-ts": "^0.4.3",
+    "@mussi/eslint-config-ts": "^0.4.3",
     "eslint-plugin-vue": "7.1.0"
   },
   "devDependencies": {

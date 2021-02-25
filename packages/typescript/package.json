@@ -1,10 +1,10 @@
 {
-  "name": "@antfu/eslint-config-ts",
+  "name": "@mussi/eslint-config-ts",
   "version": "0.4.3",
   "description": "",
   "main": "index.js",
   "keywords": [],
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "author": "Maximo Mussini <maximomussini@gmail.com> (https://github.com/ElMassimo/)",
   "license": "MIT",
   "files": [
     "index.js"
@@ -17,7 +17,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@antfu/eslint-config-basic": "^0.4.3",
+    "@mussi/eslint-config-basic": "^0.4.3",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0"
   },

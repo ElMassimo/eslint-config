@@ -13,8 +13,8 @@ module.exports = {
   },
   rules: {
     // import
-    'import/order': 'error',
-    'import/first': 'error',
+    'import/order': 'warn',
+    'import/first': 'warn',
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
@@ -22,23 +22,23 @@ module.exports = {
     // Common
     semi: [2, 'never'],
     curly: [2, 'multi-or-nest', 'consistent'],
-    quotes: ['error', 'single'],
+    quotes: ['warn', 'single'],
     'no-unused-vars': 'warn',
     'no-param-reassign': 'off',
-    'array-bracket-spacing': ['error', 'never'],
-    'brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
-    'block-spacing': ['error', 'always'],
+    'array-bracket-spacing': ['warn', 'never'],
+    'brace-style': ['warn', 'stroustrup', { allowSingleLine: true }],
+    'block-spacing': ['warn', 'always'],
     camelcase: 'off',
-    'comma-spacing': ['error', { before: false, after: true }],
-    'comma-style': ['error', 'last'],
-    'comma-dangle': ['error', 'always-multiline'],
+    'comma-spacing': ['warn', { before: false, after: true }],
+    'comma-style': ['warn', 'last'],
+    'comma-dangle': ['warn', 'always-multiline'],
     'no-constant-condition': 'warn',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-cond-assign': ['error', 'always'],
     'func-call-spacing': ['off', 'never'],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
-    indent: [ 'error', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 } ],
+    indent: ['warn', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
     'no-restricted-syntax': [
       'error',
       'DebuggerStatement',
@@ -47,9 +47,9 @@ module.exports = {
       'WithStatement',
     ],
     'no-spaced-func': 'error',
-    'object-curly-spacing': ['error', 'always'],
+    'object-curly-spacing': ['warn', 'always'],
     'no-return-await': 'off',
-    'space-before-function-paren': ['error', 'never'],
+    'space-before-function-paren': ['warn', 'always'],
 
     // es6
     'no-var': 'error',
@@ -79,7 +79,7 @@ module.exports = {
     'prefer-spread': 'error',
     'prefer-template': 'error',
     'template-curly-spacing': 'error',
-    'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
+    'arrow-parens': ['warn', 'as-needed', { requireForBlockBody: true }],
     'generator-star-spacing': 'off',
 
     // best-practice
