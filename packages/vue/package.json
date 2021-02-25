@@ -1,6 +1,6 @@
 {
   "name": "@mussi/eslint-config-vue",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "description": "",
   "main": "index.js",
   "keywords": [],
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@mussi/eslint-config-ts": "^0.4.3",
+    "@mussi/eslint-config-ts": "^0.5.0",
     "eslint-plugin-vue": "7.1.0"
   },
   "devDependencies": {

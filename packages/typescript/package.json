@@ -1,6 +1,6 @@
 {
   "name": "@mussi/eslint-config-ts",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "description": "",
   "main": "index.js",
   "keywords": [],
@@ -17,7 +17,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@mussi/eslint-config-basic": "^0.4.3",
+    "@mussi/eslint-config-basic": "^0.5.0",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0"
   },

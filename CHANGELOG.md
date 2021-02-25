@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/ElMassimo/eslint-config/compare/v0.4.3...v0.5.0) (2021-02-25)
+
+
+### Features
+
+* change error to warn in styling rules, add vue preferences ([769a3f6](https://github.com/ElMassimo/eslint-config/commit/769a3f67da17f91f1e9f095ca34f8181fac8f4bc))
+
+
+
+
+
 ## [0.4.3](https://github.com/ElMassimo/eslint-config/compare/v0.4.2...v0.4.3) (2020-10-21)
 
 **Note:** Version bump only for package @mussi/eslint-config-monorepo
